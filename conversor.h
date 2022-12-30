@@ -7,17 +7,20 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class Conversor; }
 QT_END_NAMESPACE
 
-class Conversor : public QDialog
+class Conversor : public QDialog //creo la clase
 {
     Q_OBJECT
 
-public:
+public://metodos
+    //constructor
     Conversor(QWidget *parent = nullptr);
     ~Conversor();
 
 public slots:
     void cent2fahr(int grados);
     void fahr2cent(int grados);
+    void kelv2cent(int grados);
+
 
 private:
     Ui::Conversor *ui;

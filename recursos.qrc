@@ -1,5 +1,2 @@
-<RCC>
-    <qresource prefix="/">
-        <file>recursos/img/icono.png</file>
-    </qresource>
-</RCC>
+<!DOCTYPE RCC>
+<RCC version="1.0"/>
